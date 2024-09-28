@@ -1,0 +1,103 @@
+body {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  #game-area {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #34495E;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /*montserrat font*/
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #ECF0F1;
+  }
+  
+  /*roboto font*/
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #ECF0F1;
+  }
+  
+  /*oswald font*/
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    background-color: #1ABC9C;
+    color: #2C3E50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #16A085;
+  }
+  
+  /*lobster font*/
+  #status {
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F1C40F;
+  }
+  
+  /*Crying Cat Meme and You Lose Styling */
+  #status img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;  
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .lose-message {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Smiling Dog Meme and Hooray You Win Styling */
+  .win-message {
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* courier new font */
+  .card {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', monospace;
+    border-radius: 8px;
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: .9rem; 
+  }
+  
+  /* Hands styling */
+  #player-hand, #dealer-hand {
+    display: flex;
+    justify-content: center;
+  }
+  
